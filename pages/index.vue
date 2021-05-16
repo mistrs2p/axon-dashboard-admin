@@ -1,29 +1,18 @@
 <template>
-  <v-row justify="center" align="center">
-    <v-col cols="12" sm="8" md="6">
-      <div class="text-center">
+  <div class="d-flex text-center flex-column flex-md-row flex-grow-1">
+    <v-sheet light class="layout-side mx-auto mx-md-1 d-none d-md-flex flex-md-column justify-space-between px-2">
+      <div class="mt-3 mt-md-10 pa-2">
+        <div class="display-2 font-weight-bold primary--text">Lux Admin Pro</div>
+        <div class="title my-2">Welcome! Let's build amazing things together.</div>
+
+        <v-btn href="/" light class="my-4">Take me back</v-btn>
+
+
       </div>
-      <v-card>
-        <v-card-title class="headline">
-        </v-card-title>
-        <v-card-text>
-          <div class="text-xs-right">
-          </div>
-          <hr class="my-3">
-        </v-card-text>
-        <v-card-actions>
-          <v-spacer />
-          <v-btn
-            color="primary"
-            nuxt
-            to="/inspire"
-          >
-            Continue
-          </v-btn>
-        </v-card-actions>
-      </v-card>
-    </v-col>
-  </v-row>
+        <img src="https://lux-admin-pro.indielayer.com/images/illustrations/signin-illustration.svg" class="w-full" />        
+
+    </v-sheet>
+  </div>
 </template>
 
 <script>
@@ -31,3 +20,9 @@
 export default {
 }
 </script>
+
+<style scoped>
+  .layout-side {
+    width: 420px;
+  }
+</style>
