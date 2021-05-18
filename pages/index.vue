@@ -17,7 +17,7 @@
       <div class="layout-content ma-auto w-full">
         <div>
           <v-card class="text-center pa-1 justify-center display-1 mb-2">
-            <v-card-title>Welcome</v-card-title>
+            <v-card-title class="justify-center display-1 mb-2">Welcome</v-card-title>
             <v-card-subtitle>Sign in to your account</v-card-subtitle>
             <v-card-text>
               <v-form>

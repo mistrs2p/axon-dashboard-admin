@@ -1,5 +1,5 @@
 <template>
-  <v-app light>
+  <v-app>
       <nuxt />
   </v-app>
 </template>
@@ -14,7 +14,8 @@ export default {
 </script>
 
 <style>
-.theme--light {
-    background: #f2f5f8!important;
-  }
+.theme--light.v-application {
+    background: #f2f5f8;
+    color: rgba(0,0,0,.87);
+}
 </style>
