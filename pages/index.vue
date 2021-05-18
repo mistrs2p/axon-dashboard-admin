@@ -76,8 +76,6 @@ export default {
   .layout-content {
     max-width: 480px;
   }
-  .w-full {
-    width: 100%!important;
-  }
+
   
 </style>

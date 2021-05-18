@@ -17,4 +17,7 @@ export default {
 .theme--light.v-application {
     background: #f2f5f8;
 }
+  .w-full {
+    width: 100%!important;
+  }
 </style>
