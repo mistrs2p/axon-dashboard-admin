@@ -4,19 +4,10 @@
   </v-app>
 </template>
 
-<script>
-export default {
-  data () {
-    return {
-    }
-  }
-}
-</script>
-
 <style>
-.theme--light.v-application {
-    background: #f2f5f8;
-}
+  .theme--light.v-application {
+      background: #f2f5f8;
+  }
   .w-full {
     width: 100%!important;
   }
