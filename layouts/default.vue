@@ -12,3 +12,9 @@ export default {
   }
 }
 </script>
+
+<style>
+.theme--light {
+    background: #f2f5f8!important;
+  }
+</style>
